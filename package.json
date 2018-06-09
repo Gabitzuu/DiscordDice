@@ -1,0 +1,26 @@
+{
+  "name": "discorddice",
+  "version": "0.1.0",
+  "description": "An Discord.js extension, used for gambling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabitzuu/DiscordDice.git"
+  },
+  "keywords": [
+    "gambling",
+    "discord.js",
+    "d.js",
+    "gambling",
+    "dice"
+  ],
+  "author": "Gabitzuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabitzuu/DiscordDice/issues"
+  },
+  "homepage": "https://github.com/Gabitzuu/DiscordDice"
+}
