@@ -1,6 +1,6 @@
 {
   "name": "discorddice",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An Discord.js extension, used for gambling.",
   "main": "index.js",
   "scripts": {
