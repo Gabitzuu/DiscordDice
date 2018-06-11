@@ -1,5 +1,6 @@
 # DiscordDice
 An Discord.js extension, used for gambling.
+I will add more features like built-in currency system, API for currency and more games.
 
 ## Usage
 This is an example of a bot using DiscordDice module:
