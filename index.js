@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 
-exports.dice = function(author) {
-    let diceresult = Math.floor(Math.random() * 6) + 1;
+exports.dice = function(author, maxnumber) {
+    let randomnumber = Math.floor(Math.random() * maxnumber) + 1;
 
-    var eb = new Discord.RichEmbed()
+    var embedroll = new Discord.RichEmbed()
         .setTitle("Dice", author.avatarURL)
-        .setDescription('You rolled out: ' + diceresult)
+        .setDescription('You rolled out: ' + randomnumber)
         .setAuthor(author.tag)
-        .setColor('RED');
+        .setColor(16711680);
 
-    message.channel.send(eb);
+    message.channel.send(embedroll);
 }
