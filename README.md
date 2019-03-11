@@ -22,3 +22,7 @@ client.on('message', message => {
 
 client.login('YourSuperSecretTokenHere-VerySecret');
 ```
+
+## Documentation
+dice(message_author, maximum_number)
+    Creates an embed with a red colour and a dice number within your second argument, failure to provide both with make the extention   throw an error.
