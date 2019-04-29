@@ -5,7 +5,7 @@ exports.dice = function(author, maxnumber) {
     if(!author || !maxnumber) throw Error('Arguments not inputted.');
     var embedroll = new Discord.RichEmbed()
         .setTitle("Dice", author.avatarURL)
-        .setDescription('You rolled out: ' + randomnumber)
+        .setDescription(`You rolled a ${randomnumber}.`)
         .setAuthor(author.tag)
         .setColor(16711680);
 
